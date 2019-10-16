@@ -4,4 +4,5 @@ new_array=[]
 my_array.each do |string|
 new_array << string.reverse
 end
+return new_array
 end
