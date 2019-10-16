@@ -1,4 +1,7 @@
 def reverse_each_word(string)
 my_array=string.split(' ')
-my_array.each
+new_array=[]
+my_array.each do string
+new_array<< string.reverse
+end
 end
